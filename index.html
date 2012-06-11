@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Ethan and Jayden</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/home.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+</head>
+
+<script type="text/javascript">
+ 
+function showImage(name, id) {
+	$("#bigphoto").html();
+	$("#bigphoto").html("<img src='images/"+name+"' width='500'/>");
+	$("#bigphoto").show();
+    $("#"+id).css("border", "1px solid #FFF");
+}
+
+function hideImage(id) {
+	$("#bigphoto").hide();
+    $("#"+id).css("border", "1px solid #000"); 
+}
+</script>
+
+<body>
+  <div class="banner"><img src="images/banner.gif"/></div>
+  <div class="page">
+    <div class="nav">
+      <div class="menu"><a href="#" onmouseover="highlight('home')" onmouseout="unhighlight('home')"><img id="home" src="images/home.jpg"/></a></div>
+      <div class="menu"><a href="gallery.html" onmouseover="highlight('gallery')" onmouseout="unhighlight('gallery')"><img id="gallery" src="images/gallery.jpg"/></a></div>
+    </div>
+    <div class="divider"></div>
+    <div class="content">
+      <div class="photo"><img src="images/pregnant.jpg" width="275"/></div>
+      <div class="description">
+        <img src="images/welcome.jpg" width="275"/>
+        <div class="welcomeMsg">
+      	Welcome to Ethan and Jayden's baby website. We thought this website would be a great way to share all of our many milestones and pictures with you. We are expecting to arrive in early August. We can't wait to meet all our family and friends.
+</div>
+<img src="images/signature.png" width="275"/>
+      	
+      </div>
+      <div class="ultrasounds">First Look at Ethan and Jayden</div>
+      <div class="thumbnails">
+        <img class="thumb" id="e13" onmouseover="showImage('Ethan_13weeks.jpg', 'e13')" onmouseout="hideImage('e13')" src="images/Ethan_13weeks_thumb.jpg"/>
+        <img class="thumb" id="j13" onmouseover="showImage('Jayden_13weeks.jpg', 'j13')" onmouseout="hideImage('j13')" src="images/Jayden_13weeks_thumb.jpg"/>
+        <img class="thumb" id="e20" onmouseover="showImage('Ethan_20weeks.jpg', 'e20')" onmouseout="hideImage('e20')" src="images/Ethan_20weeks_thumb.jpg"/>
+        <img class="thumb" id="j20" onmouseover="showImage('Jayden_20weeks.jpg', 'j20')" onmouseout="hideImage('j20')" src="images/Jayden_20weeks_thumb.jpg"/>
+      </div>
+      <div id="bigphoto"></div>
+    </div>  <!-- end content -->
+    <div class="divider"></div>
+  </div>  <!-- end page -->
+</body>	
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Ethan and Jayden</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/gallery.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+</head>
+
+<script type="text/javascript">
+
+$(document).ready(function () {
+
+    $.ajax({
+        type:       "GET",
+        url:        "xml/albums.xml",
+        dataType:   "xml",
+        success:    function(xml) {
+            readXML(xml, 0, 3);
+        }
+    });
+
+});
+
+function readXML(xml, start, end) {
+	var html = "";
+    var count = 0;
+    $(xml).find("category").each(function() {  // for every category
+    	html += "  <div class='category'>";
+        $(this).find("name").each(function() { // for every name
+            html += "<div class='category_name'>" + $(this).text() + "</div>";
+            html += "<div class='albums'>";
+            count = 0;
+        });
+		var less = false;
+        $(this).find("album").each(function() {  // for every album
+			if( count > end ) {
+				html += "<div style='vertical-align:bottom'>-></div>";
+				return false;
+			}
+			if( start > 3 && less == false ) {
+				html += "<div style='vertical-align:bottom'><-</div>";
+				less = true;
+			}
+            if( count >= start && count <= end ) {
+                var title = $(this).find("title").text();
+                var img = $(this).find("thumb").text();
+				var cover = $(this).find("cover").text();
+                var desc = $(this).find("description").text();
+                var date = $(this).find("date").text();
+                var d = new Date(date);
+                var flash = $(this).find("flash").text();
+                var link = $(this).find("html").text();
+                var year = new String(d.getFullYear());
+                html += "<div class='albumthumbs'>";
+                html += "  <a href='" + $(this).find("html").text() + "'>";
+                html += "    <img class='thumbs' src='"+img+"' width='60' onmouseover=\"albumViewer('"+title+"','"+cover+"','"+desc+"','"+link+"','"+flash+"','"+date+"')\"/>";
+                html += "  </a></br>" + (d.getMonth()+1) + "/" +  (d.getDate()) + "/" + year.substring(2);
+                html += "</div>";
+            }
+			count++;
+        });
+        html += "    </div>";
+        html += "  </div>";
+    });
+
+
+    $(".left_panel").html(html);
+}
+
+function albumViewer(title, img, desc, link, flash, date) {
+	
+	var months=new Array();
+	months[0] ="January";       
+	months[1] ="February";       
+	months[2] ="March";       
+	months[3] ="April";       
+	months[4] ="May";       
+	months[5] ="June";       
+	months[6] ="July";       
+	months[7] ="August";       
+	months[8] ="September";       
+	months[9] ="October";       
+	months[10]="November";       
+	months[11]="December";       
+
+	var html = ""; 
+	$(".album_viewer").html();
+	html += "<div class='album_title'>"+title+"</div>";
+	html += "<img class='thumbs' src='" + img + "' height='300'/>";
+	html += "<div class='album_description'>"+desc+"</div>"; 
+	html += "<div class='links'>";
+	
+	var d = new Date(date);	
+	html += "<b>"+ months[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear() + "</b>&nbsp;&nbsp;&nbsp;&nbsp;";
+	html += "<a href='"+link+"'>HTML</a>&nbsp;|&nbsp;";
+	html += "<a href='"+flash+"'>FLASH</a>";
+	html += "</div>";
+	$(".album_viewer").html(html);
+}
+
+</script>
+
+<body>
+  <div class="banner"><img src="images/banner.gif"/></div>
+  <div class="page">
+    <div class="nav">
+      <div class="menu left"><a href="index.html" onmouseover="highlight('home')" onmouseout="unhighlight('home')"><img id="home" src="images/home.jpg"/></a></div>
+      <div class="menu"><a href="#" onmouseover="highlight('gallery')" onmouseout="unhighlight('gallery')"><img id="gallery" src="images/gallery.jpg"/></a></div>
+    </div>
+    <div class="divider"></div>
+    <div class="content">    
+      <div class="left_panel"></div>    
+      <div class="album_viewer"></div>      
+    </div>
+    <div class="divider"></div>
+  </div>
+</body>    
+</html>

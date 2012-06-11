@@ -1,0 +1,16 @@
+<categories>
+	<category>
+		<name>Photoshoots</name>
+		<albums>
+			<album>
+				<title>My Pregnancy Photos</title>
+				<html>albums/prebirth/preg-H/index.html</html>
+				<flash>/albums/prebirth/preg-S/index.html</flash>
+				<description>These are photos taken at 26 weeks (6 1/2 months pregnant).</description>
+				<thumb>albums/prebirth/thumb.JPG</thumb>
+				<cover>albums/prebirth/cover.JPG</cover>
+				<date>05/19/2012</date>
+			</album>
+	    </albums>
+	</category>
+</categories>
