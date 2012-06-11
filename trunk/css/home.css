@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+.photo {
+    float:              left;    
+    margin:             25px;
+    box-shadow:             2px 2px 5px 0px #000;
+    -moz-box-shadow:        2px 2px 5px 0px #000;
+    -webkit-box-shadow:     2px 2px 2px 0px #000;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')"; 
+    witdh:              350px;
+}
+.description {
+    float:         left;
+    margin:        25px;
+    font-size:     16px;
+    font-weight:   bold;
+    width:         325px;
+}
+.welcomeMsg {
+    font-size:     14px;
+    font-weight:   bold;
+    margin-bottom: 30px;
+}
+.ultrasounds {
+    clear:         both;
+    font-size:     16px;    
+    font-weight:   bold;
+    margin-left:   25px;
+    margin-bottom: 10px;
+}
+.thumbnails {
+    float:     left;
+    margin-left: 25px;
+}
+.thumb {
+    border: 1px solid #000;
+}
+#bigphoto {
+    display:    none;
+    position:   absolute;
+    top:         200px;
+    left:        300px;
+    border:        1px solid #fff;
+    box-shadow:        2px 2px 05px #000;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')"; 
+    background-color:    #fff;
+    text-align:    center;
+}

@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image:	url(../images/background.jpg);
+	font-family:       verdana, helvetica;
+	//font-family:       cursive;
+	font-size:             16px;	
+}
+.page {
+	margin-left:		175px;
+	margin-right:		auto;
+	width:              800px;
+	margin-top: 25px;
+}
+
+.banner {
+	padding-top: 	10px;
+	text-align:		left;
+	padding-left: 20px;
+}
+.nav {
+	width:			700px;
+	height:			35px;
+}
+.menu {
+	margin-top:		10px;
+	margin-right: 	5px;
+	float:          left;
+}
+.menu img {
+    border: none;
+}
+.content {
+	background-image:url(../images/gradient.jpg);
+	margin-top:		20px;
+	margin-bottom:  20px;
+	width:			700px;
+	height:			550px;
+	border:			1px solid #CCC;
+	box-shadow:		2px 2px 05px #000;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')"; 
+	clear: both;
+}
+.divider {
+	border-bottom: 1px solid #FFF;
+	width:		   700px;
+}
