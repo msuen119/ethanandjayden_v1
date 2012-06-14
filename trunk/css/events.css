@@ -20,5 +20,7 @@
 	margin-bottom: 40px;
 }
 .events {
-	overflow-y:  scroll;
+	height:            100%;
+	background-color:  #FFFF99;
+	background-repeat: no-repeat;
 }
