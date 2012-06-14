@@ -44,3 +44,9 @@ body {
 	border-bottom: 1px solid #FFF;
 	width:		   700px;
 }
+.dropShadow {
+	box-shadow:     2px 2px 5px #000;
+    -moz-box-shadow:    2px 2px 5px #000;
+    -webkit-box-shadow: 2px 2px 2px #000;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";	
+}

@@ -4,10 +4,6 @@
 .photo {
     float:              left;    
     margin:             25px;
-    box-shadow:             2px 2px 5px 0px #000;
-    -moz-box-shadow:        2px 2px 5px 0px #000;
-    -webkit-box-shadow:     2px 2px 2px 0px #000;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')"; 
     witdh:              350px;
 }
 .description {
@@ -42,8 +38,6 @@
     top:         200px;
     left:        300px;
     border:        1px solid #fff;
-    box-shadow:        2px 2px 05px #000;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')"; 
     background-color:    #fff;
     text-align:    center;
 }
