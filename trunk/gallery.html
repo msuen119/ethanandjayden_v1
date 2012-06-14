@@ -25,6 +25,8 @@ $(document).ready(function () {
 
 });
 
+// start - first album index
+// end = last album index
 function readXML(xml, start, end) {
 	var html = "";
     var count = 0;
@@ -57,7 +59,7 @@ function readXML(xml, start, end) {
                 var year = new String(d.getFullYear());
                 html += "<div class='albumthumbs'>";
                 html += "  <a href='" + $(this).find("html").text() + "'>";
-                html += "    <img class='thumbs' src='"+img+"' width='60' onmouseover=\"albumViewer('"+title+"','"+cover+"','"+desc+"','"+link+"','"+flash+"','"+date+"')\"/>";
+                html += "    <img class='thumbs dropShadow' src='"+img+"' width='60' onmouseover=\"albumViewer('"+title+"','"+cover+"','"+desc+"','"+link+"','"+flash+"','"+date+"')\"/>";
                 html += "  </a></br>" + (d.getMonth()+1) + "/" +  (d.getDate()) + "/" + year.substring(2);
                 html += "</div>";
             }
@@ -90,7 +92,7 @@ function albumViewer(title, img, desc, link, flash, date) {
 	var html = ""; 
 	$(".album_viewer").html();
 	html += "<div class='album_title'>"+title+"</div>";
-	html += "<img class='thumbs' src='" + img + "' height='300'/>";
+	html += "<img class='thumbs dropShadow' src='" + img + "' height='300'/>";
 	html += "<div class='album_description'>"+desc+"</div>"; 
 	html += "<div class='links'>";
 	
