@@ -4,11 +4,42 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Ethan and Jayden</title>
 <link href="css/style.css" rel="stylesheet" type="text/css" />
-<link href="css/news.css" rel="stylesheet" type="text/css" />
+<link href="css/events.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="js/common.js"></script>
 </head>
+
+<script>
+
+$(document).ready(function () {
+
+    $.ajax({
+        type:       "GET",
+        url:        "xml/events.xml",
+        dataType:   "xml",
+        success:    function(xml) {
+            readXML(xml);
+        }
+    });
+
+});
+
+function readXML(xml) {
+	
+	var html = "";
+	
+	$(xml).find("event").each(function() {  // for every event
+		html += "<div class=\"event_text center\">"+$(this).find("name").text()+"</div>";
+		html += "<div class=\"event_text center\">"+$(this).find("date").text()+"</div>";
+		html += "<div class=\"center\"><img class=\"dropShadow\" width=\"500px\" src=\""+$(this).find("image").text()+"\"/></div>";
+		html += "<div class=\"event_description\">"+$(this).find("description").text()+"</div>";
+	});
+	
+	$(".content").append(html);
+}
+
+</script>
 
 <body>
   <div class="banner"><img src="images/banner.gif"/></div>
@@ -16,11 +47,15 @@
     <div class="nav">
       <div class="menu left"><a href="index.html" onmouseover="highlight('home')" onmouseout="unhighlight('home')"><img id="home" src="images/home.jpg"/></a></div>
       <div class="menu"><a href="gallery.html" onmouseover="highlight('gallery')" onmouseout="unhighlight('gallery')"><img id="gallery" src="images/gallery.jpg"/></a></div>
-      <div class="menu"><a href="news.html" onmouseover="highlight('news')" onmouseout="unhighlight('news')"><img id="gallery" src="images/gallery.jpg"/></a></div>
+      <div class="menu"><a href="events.html" onmouseover="highlight('events')" onmouseout="unhighlight('events')"><img id="gallery" src="images/gallery.jpg"/></a></div>
     </div>
     <div class="divider"></div>
-    <div class="content">
+    <div class="content events">
       <div class="headlines">Latest Events</div>
+      <!-- <div class = "event_text center">Day At the Doctor</div>
+      <div class="event_text center">May 5, 2012 </div>
+      <div class="center"><img src="events/Jayden_20weeks.jpg" width="500px"/></div>
+      <div class="event_description">Check the latest</div> -->
     </div>
     <div class="divider"></div>
   </div>
