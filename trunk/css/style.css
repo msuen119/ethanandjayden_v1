@@ -33,6 +33,7 @@ body {
 	background-image:url(../images/gradient.jpg);
 	margin-top:		20px;
 	margin-bottom:  20px;
+	padding-bottom: 10px;
 	width:			700px;
 	height:			550px;
 	border:			1px solid #CCC;
