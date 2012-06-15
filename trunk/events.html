@@ -30,10 +30,19 @@ function readXML(xml) {
 	var html = "";
 	
 	$(xml).find("event").each(function() {  // for every event
-		html += "<div class=\"event_text center\">"+$(this).find("name").text()+"</div>";
-		html += "<div class=\"event_text center\">"+$(this).find("date").text()+"</div>";
-		html += "<div class=\"center\"><img class=\"dropShadow\" width=\"500px\" src=\""+$(this).find("image").text()+"\"/></div>";
-		html += "<div class=\"event_description\">"+$(this).find("description").text()+"</div>";
+		var orientation = $(this).find("orientation").text();
+		if( orientation == 'landscape') {
+			html += "<div style=\"float:left; margin-left:100px\" class=\"event_text\">"+$(this).find("name").text()+"</div>";
+			html += "<div style=\"float:right; margin-right: 100px;\" class=\"event_text\">"+$(this).find("date").text()+"</div>";
+			html += "<div class=\"landscape\"><img class=\"dropShadow\" width=\"500px\" src=\""+$(this).find("image").text()+"\"/></div>";
+			html += "<div class=\"event_description\">"+$(this).find("description").text()+"</div>";
+		}
+		else if( orientation == 'portrait' ) {
+			html += "<div style=\"float:left; margin-left:100px\" class=\"event_text\">"+$(this).find("name").text()+"</div>";
+			html += "<div style=\"float:right; margin-right: 300px;\" class=\"event_text\">"+$(this).find("date").text()+"</div>";
+			html += "<div class=\"portrait\"><img class=\"dropShadow\" width=\"300px\" src=\""+$(this).find("image").text()+"\"/></div>";
+			html += "<div class=\"event_description\">"+$(this).find("description").text()+"</div>";
+		}
 	});
 	
 	$(".content").append(html);
