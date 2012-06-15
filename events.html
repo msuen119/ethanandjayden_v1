@@ -35,14 +35,15 @@ function readXML(xml) {
 			html += "<div style=\"float:left; margin-left:100px\" class=\"event_text\">"+$(this).find("name").text()+"</div>";
 			html += "<div style=\"float:right; margin-right: 100px;\" class=\"event_text\">"+$(this).find("date").text()+"</div>";
 			html += "<div class=\"landscape\"><img class=\"dropShadow\" width=\"500px\" src=\""+$(this).find("image").text()+"\"/></div>";
-			html += "<div class=\"event_description\">"+$(this).find("description").text()+"</div>";
+			html += "<div class=\"event_description bottom\">"+$(this).find("description").text()+"</div>";
 		}
 		else if( orientation == 'portrait' ) {
 			html += "<div style=\"float:left; margin-left:100px\" class=\"event_text\">"+$(this).find("name").text()+"</div>";
-			html += "<div style=\"float:right; margin-right: 300px;\" class=\"event_text\">"+$(this).find("date").text()+"</div>";
-			html += "<div class=\"portrait\"><img class=\"dropShadow\" width=\"300px\" src=\""+$(this).find("image").text()+"\"/></div>";
-			html += "<div class=\"event_description\">"+$(this).find("description").text()+"</div>";
+			html += "<div style=\"float:right; margin-right: 350px;\" class=\"event_text\">"+$(this).find("date").text()+"</div>";
+			html += "<div class=\"portrait\"><img class=\"dropShadow\" width=\"250\" src=\""+$(this).find("image").text()+"\"/></div>";
+			html += "<div style=\"float:left\" class=\"event_description right\">"+$(this).find("description").text()+"</div>";
 		}
+		html += "<div class=\"seperator\"></div>";
 	});
 	
 	$(".content").append(html);
@@ -56,11 +57,16 @@ function readXML(xml) {
     <div class="nav">
       <div class="menu left"><a href="index.html" onmouseover="highlight('home')" onmouseout="unhighlight('home')"><img id="home" src="images/home.jpg"/></a></div>
       <div class="menu"><a href="gallery.html" onmouseover="highlight('gallery')" onmouseout="unhighlight('gallery')"><img id="gallery" src="images/gallery.jpg"/></a></div>
-      <div class="menu"><a href="events.html" onmouseover="highlight('events')" onmouseout="unhighlight('events')"><img id="gallery" src="images/gallery.jpg"/></a></div>
+      <div class="menu"><a href="events.html" onmouseover="highlight('events')" onmouseout="unhighlight('events')"><img id="events" src="images/events.jpg"/></a></div>
     </div>
     <div class="divider"></div>
     <div class="content events">
-      <div class="headlines">Latest Events</div>
+      <div class="headlines">Latest Events</div>      	
+      <!--<div style="float:left; margin-left:100px;" class="event_text">Event Name</div>
+      <div style="float: right; margin-right:350px" class="event_text">Date</div>
+      <div class="portrait"><img src="images/pregnant.jpg" width="250"/></div>
+      <div style="float:left" class="event_description right">Some descripton about the picture</div>
+      <div class="seperator"></div> -->
     </div>
     <div class="divider"></div>
   </div>
