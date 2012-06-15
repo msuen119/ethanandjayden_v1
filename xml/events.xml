@@ -5,6 +5,7 @@
     <flash>/albums/prebirth/preg-S/index.html</flash>
     <description>It took us several weeks, but the baby room is finally decorated.</description>
     <image>events/room.jpg</image>
+	<orientation>landscape</orientation>
     <date>May 5, 2012</date>
   </event>
   <event>
@@ -13,6 +14,7 @@
     <flash>/albums/prebirth/preg-S/index.html</flash>
     <description>Second update.  Jayden is now 20 weeks new.</description>
     <image>events/Jayden_20weeks.jpg</image>
+	<orientation>portrait</orientation>
     <date>May 5, 2012</date>
   </event>
 </events>
