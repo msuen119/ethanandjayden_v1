@@ -4,11 +4,13 @@
     margin-left:   20px;
     margin-top:    20px;
 }
-.event_text {
+.title {
 	font-weight:   bold;
 	font-size:     14px;
 	margin-bottom: 5px;
 	margin-top:		30px;
+	margin-left:   100px;
+	float:          left;
 }
 .landscape {
 	clear:			both;
@@ -28,8 +30,10 @@
 	margin-top:    10px;
 }
 .right {
+	float:          left;
 	margin-left:	20px;
 	margin-right:	20px;
+	width:	        40%;
 }
 .events {
 	height:            100%;
