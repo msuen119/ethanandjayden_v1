@@ -32,16 +32,23 @@ function readXML(xml) {
 	$(xml).find("event").each(function() {  // for every event
 		var orientation = $(this).find("orientation").text();
 		if( orientation == 'landscape') {
-			html += "<div style=\"float:left; margin-left:100px\" class=\"event_text\">"+$(this).find("name").text()+"</div>";
-			html += "<div style=\"float:right; margin-right: 100px;\" class=\"event_text\">"+$(this).find("date").text()+"</div>";
+			html += "<div class=\"title\">"+$(this).find("name").text()+"</div>";
 			html += "<div class=\"landscape\"><img class=\"dropShadow\" width=\"500px\" src=\""+$(this).find("image").text()+"\"/></div>";
-			html += "<div class=\"event_description bottom\">"+$(this).find("description").text()+"</div>";
+			html += "<div class=\"event_description bottom\"><b>"+$(this).find("date").text()+"</b> - "+$(this).find("description").text()+"</div>";
+			if( $(this).find("html").text() != "" ) {
+				html += "<div class=\"event_description bottom\">" +
+						"  <a style=\"margin-right:10px\" href=\""+$(this).find("html").text()+"\">"+$(this).find("linkText").text()+"</a>"+
+						"  <a href=\""+$(this).find("flash").text()+"\">Slideshow Version</a>"+
+						"</div>";
+			}
 		}
 		else if( orientation == 'portrait' ) {
-			html += "<div style=\"float:left; margin-left:100px\" class=\"event_text\">"+$(this).find("name").text()+"</div>";
-			html += "<div style=\"float:right; margin-right: 350px;\" class=\"event_text\">"+$(this).find("date").text()+"</div>";
+			html += "<div class=\"title\">"+$(this).find("name").text()+"</div>";
 			html += "<div class=\"portrait\"><img class=\"dropShadow\" width=\"250\" src=\""+$(this).find("image").text()+"\"/></div>";
-			html += "<div style=\"float:left\" class=\"event_description right\">"+$(this).find("description").text()+"</div>";
+			html += "<div class=\"event_description right\"><	b>"+$(this).find("date").text()+"</b> - "+$(this).find("description").text()+"</div>";
+			if( $(this).find("html").text() != "" ) {
+				html += "<div class=\"event_description right\"><a href=\""+$(this).find("html").text()+"\">"+$(this).find("linkText").text()+"</a></div>";
+			}
 		}
 		html += "<div class=\"seperator\"></div>";
 	});

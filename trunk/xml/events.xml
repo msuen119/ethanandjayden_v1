@@ -1,20 +1,19 @@
 <events>
   <event>
-    <name>Baby Room</name>
-    <html>albums/prebirth/preg-H/index.html</html>
-    <flash>/albums/prebirth/preg-S/index.html</flash>
-    <description>It took us several weeks, but the baby room is finally decorated.</description>
-    <image>events/room.jpg</image>
+    <name>Baby Shower</name>
+    <html>albums/shower/baby-H/index.html</html>
+    <flash>/albums/shower/baby-S/index.html</flash>
+	<linkText>Check out photos from the event here</linkText>
+    <description>Ethan and Jayden enjoyed their baby shower.  They loved seeing all their friends and family.  They especially love all the gifts they got.</description>
+    <image>events/babyshower.JPG</image>
 	<orientation>landscape</orientation>
-    <date>May 5, 2012</date>
+    <date>June 16, 2012</date>
   </event>
   <event>
-    <name>Ultrasound Day</name>
-    <html>albums/prebirth/preg-H/index.html</html>
-    <flash>/albums/prebirth/preg-S/index.html</flash>
-    <description>Second update.  Jayden is now 20 weeks new.</description>
-    <image>events/Jayden_20weeks.jpg</image>
-	<orientation>portrait</orientation>
-    <date>May 5, 2012</date>
+    <name>Baby Room</name>
+    <description>The decorations for the baby room is finally complete.  Special thanks to Yvonne for the banner.</description>
+    <image>events/room.jpg</image>
+	<orientation>landscape</orientation>
+    <date>June 15, 2012</date>
   </event>
 </events>
