@@ -10,7 +10,21 @@
 				<thumb>albums/prebirth/thumb.JPG</thumb>
 				<cover>albums/prebirth/cover.JPG</cover>
 				<date>05/19/2012</date>
-			</album>
+			</album>			
+	    </albums>
+	</category>
+	<category>
+	  <name>Family and Friends</name>
+		<albums>
+			<album>
+				<title>Baby Shower</title>
+				<html>albums/shower/baby-H/index.html</html>
+				<flash>/albums/shower/baby-S/index.html</flash>
+				<description>These are photos taken at 26 weeks (6 1/2 months pregnant).</description>
+				<thumb>albums/shower/thumb.JPG</thumb>
+				<cover>albums/shower/cover.JPG</cover>
+				<date>06/09/2012</date>
+			</album>			
 	    </albums>
 	</category>
 </categories>
