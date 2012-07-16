@@ -1,5 +1,15 @@
 <events>
   <event>
+    <name>Baby Shower with Tennis Friends</name>
+    <html>albums/tennisShower/baby-H/index.html</html>
+    <flash>/albums/tennisShower/baby-S/index.html</flash>
+	<linkText>Check out photos from the event here</linkText>
+    <description>I have the best teammates in the world.  Special thanks to Lynley, Lien and Tammy for putting this together.</description>
+    <image>events/babyshowertennis.jpg</image>
+	<orientation>landscape</orientation>
+    <date>July 8, 2012</date>
+  </event>
+  <event>
     <name>Baby Shower</name>
     <html>albums/shower/baby-H/index.html</html>
     <flash>/albums/shower/baby-S/index.html</flash>
