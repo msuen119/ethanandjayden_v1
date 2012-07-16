@@ -31,6 +31,7 @@
     text-align:    center;
     font-size:     12px;
     margin-bottOm: 10px;
+	margin-right:	5px;
 }
 .thumbs { 
     margin-bottom:  5px;
@@ -58,10 +59,11 @@
     font-size:      18px;
     font-family:    "Lucida Calligraphy", verdana,helvetica;
     font-weight:    500;
-    width:          250px;
+    width:          225px;
     margin-left:    5px;
     margin-top:     10px;
     margin-bottom:  5px;
+	margin-right:	40px;
 }
 
 .links {

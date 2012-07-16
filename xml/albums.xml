@@ -24,6 +24,15 @@
 				<thumb>albums/shower/thumb.JPG</thumb>
 				<cover>albums/shower/cover.JPG</cover>
 				<date>06/09/2012</date>
+			</album>
+			<album>
+				<title>Baby Shower with Tennis Friends</title>
+				<html>albums/tennisShower/baby-H/index.html</html>
+				<flash>/albums/tennisShower/baby-S/index.html</flash>
+				<description>Baby Shower with my tennis buds</description>
+				<thumb>albums/tennisShower/thumb.JPG</thumb>
+				<cover>albums/tennisShower/cover.JPG</cover>
+				<date>07/08/2012</date>
 			</album>			
 	    </albums>
 	</category>
