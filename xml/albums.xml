@@ -1,39 +1,39 @@
 <categories>
-	<category>
-		<name>Photoshoots</name>
-		<albums>
-			<album>
-				<title>My Pregnancy Photos</title>
-				<html>albums/prebirth/preg-H/index.html</html>
-				<flash>/albums/prebirth/preg-S/index.html</flash>
-				<description>These are photos taken at 26 weeks (6 1/2 months pregnant).</description>
-				<thumb>albums/prebirth/thumb.JPG</thumb>
-				<cover>albums/prebirth/cover.JPG</cover>
-				<date>05/19/2012</date>
-			</album>			
-	    </albums>
-	</category>
-	<category>
-	  <name>Family and Friends</name>
-		<albums>
-			<album>
-				<title>Baby Shower</title>
-				<html>albums/shower/baby-H/index.html</html>
-				<flash>/albums/shower/baby-S/index.html</flash>
-				<description>Photos from our Baby Shower.</description>
-				<thumb>albums/shower/thumb.JPG</thumb>
-				<cover>albums/shower/cover.JPG</cover>
-				<date>06/09/2012</date>
-			</album>
-			<album>
-				<title>Baby Shower with Tennis Friends</title>
-				<html>albums/tennisShower/baby-H/index.html</html>
-				<flash>/albums/tennisShower/baby-S/index.html</flash>
-				<description>Baby Shower with my tennis buds</description>
-				<thumb>albums/tennisShower/thumb.JPG</thumb>
-				<cover>albums/tennisShower/cover.JPG</cover>
-				<date>07/08/2012</date>
-			</album>			
-	    </albums>
-	</category>
+  <category>
+    <name>Photoshoots</name>
+    <albums>
+      <album>
+        <title>My Pregnancy Photos</title>
+        <html>albums/prebirth/preg-H/index.html</html>
+        <flash>/albums/prebirth/preg-S/index.html</flash>
+        <description>These are photos taken at 26 weeks (6 1/2 months pregnant).</description>
+        <thumb>albums/prebirth/thumb.JPG</thumb>
+        <cover>albums/prebirth/cover.JPG</cover>
+        <date>05/19/2012</date>
+      </album>
+      </albums>
+  </category>
+  <category>
+    <name>Family and Friends</name>
+    <albums>
+      <album>
+        <title>Baby Shower</title>
+        <html>albums/shower/baby-H/index.html</html>
+        <flash>/albums/shower/baby-S/index.html</flash>
+        <description>Photos from our Baby Shower.</description>
+        <thumb>albums/shower/thumb.JPG</thumb>
+        <cover>albums/shower/cover.JPG</cover>
+        <date>06/09/2012</date>
+      </album>
+      <album>
+        <title>Baby Shower with Tennis Friends</title>
+        <html>albums/tennisShower/baby-H/index.html</html>
+        <flash>/albums/tennisShower/baby-S/index.html</flash>
+        <description>Baby Shower with my tennis buds</description>
+        <thumb>albums/tennisShower/thumb.JPG</thumb>
+        <cover>albums/tennisShower/cover.JPG</cover>
+        <date>07/08/2012</date>
+      </album>
+      </albums>
+  </category>
 </categories>
