@@ -1,6 +1,5 @@
 <categories>
-  <category>
-    <name>Photoshoots</name>
+  <category id="1" name="Photoshoots">
     <albums>
       <album>
         <title>My Pregnancy Photos</title>
@@ -11,11 +10,46 @@
         <cover>albums/prebirth/cover.JPG</cover>
         <date>05/19/2012</date>
       </album>
-      </albums>
+    </albums>
   </category>
-  <category>
-    <name>Family and Friends</name>
+  <category id="2" name="Family and Friends">
     <albums>
+      <album>
+        <title>Baby Shower with Tennis Friends</title>
+        <html>albums/tennisShower/baby-H/index.html</html>
+        <flash>/albums/tennisShower/baby-S/index.html</flash>
+        <description>Baby Shower with my tennis buds</description>
+        <thumb>albums/tennisShower/thumb.JPG</thumb>
+        <cover>albums/tennisShower/cover.JPG</cover>
+        <date>07/08/2012</date>
+      </album>
+      <album>
+        <title>Baby Shower with Tennis Friends</title>
+        <html>albums/tennisShower/baby-H/index.html</html>
+        <flash>/albums/tennisShower/baby-S/index.html</flash>
+        <description>Baby Shower with my tennis buds</description>
+        <thumb>albums/tennisShower/thumb.JPG</thumb>
+        <cover>albums/tennisShower/cover.JPG</cover>
+        <date>07/07/2012</date>
+      </album>
+      <album>
+        <title>Baby Shower with Tennis Friends</title>
+        <html>albums/tennisShower/baby-H/index.html</html>
+        <flash>/albums/tennisShower/baby-S/index.html</flash>
+        <description>Baby Shower with my tennis buds</description>
+        <thumb>albums/tennisShower/thumb.JPG</thumb>
+        <cover>albums/tennisShower/cover.JPG</cover>
+        <date>07/06/2012</date>
+      </album>
+      <album>
+        <title>Baby Shower with Tennis Friends</title>
+        <html>albums/tennisShower/baby-H/index.html</html>
+        <flash>/albums/tennisShower/baby-S/index.html</flash>
+        <description>Baby Shower with my tennis buds</description>
+        <thumb>albums/tennisShower/thumb.JPG</thumb>
+        <cover>albums/tennisShower/cover.JPG</cover>
+        <date>07/05/2012</date>
+      </album>
       <album>
         <title>Baby Shower</title>
         <html>albums/shower/baby-H/index.html</html>
@@ -26,14 +60,50 @@
         <date>06/09/2012</date>
       </album>
       <album>
-        <title>Baby Shower with Tennis Friends</title>
-        <html>albums/tennisShower/baby-H/index.html</html>
-        <flash>/albums/tennisShower/baby-S/index.html</flash>
-        <description>Baby Shower with my tennis buds</description>
-        <thumb>albums/tennisShower/thumb.JPG</thumb>
-        <cover>albums/tennisShower/cover.JPG</cover>
-        <date>07/08/2012</date>
+        <title>Baby Shower</title>
+        <html>albums/shower/baby-H/index.html</html>
+        <flash>/albums/shower/baby-S/index.html</flash>
+        <description>Photos from our Baby Shower.</description>
+        <thumb>albums/shower/thumb.JPG</thumb>
+        <cover>albums/shower/cover.JPG</cover>
+        <date>06/08/2012</date>
       </album>
-      </albums>
+      <album>
+        <title>My Pregnancy Photos</title>
+        <html>albums/prebirth/preg-H/index.html</html>
+        <flash>/albums/prebirth/preg-S/index.html</flash>
+        <description>These are photos taken at 26 weeks (6 1/2 months pregnant).</description>
+        <thumb>albums/prebirth/thumb.JPG</thumb>
+        <cover>albums/prebirth/cover.JPG</cover>
+        <date>05/19/2012</date>
+      </album>
+            <album>
+        <title>My Pregnancy Photos</title>
+        <html>albums/prebirth/preg-H/index.html</html>
+        <flash>/albums/prebirth/preg-S/index.html</flash>
+        <description>These are photos taken at 26 weeks (6 1/2 months pregnant).</description>
+        <thumb>albums/prebirth/thumb.JPG</thumb>
+        <cover>albums/prebirth/cover.JPG</cover>
+        <date>05/18/2012</date>
+      </album>
+            <album>
+        <title>My Pregnancy Photos</title>
+        <html>albums/prebirth/preg-H/index.html</html>
+        <flash>/albums/prebirth/preg-S/index.html</flash>
+        <description>These are photos taken at 26 weeks (6 1/2 months pregnant).</description>
+        <thumb>albums/prebirth/thumb.JPG</thumb>
+        <cover>albums/prebirth/cover.JPG</cover>
+        <date>05/17/2012</date>
+      </album>
+            <album>
+        <title>My Pregnancy Photos</title>
+        <html>albums/prebirth/preg-H/index.html</html>
+        <flash>/albums/prebirth/preg-S/index.html</flash>
+        <description>These are photos taken at 26 weeks (6 1/2 months pregnant).</description>
+        <thumb>albums/prebirth/thumb.JPG</thumb>
+        <cover>albums/prebirth/cover.JPG</cover>
+        <date>05/16/2012</date>
+      </album>
+    </albums>
   </category>
 </categories>
