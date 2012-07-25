@@ -7,10 +7,13 @@
 <link href="css/gallery.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.22.custom.min.js"></script>
 <script type="text/javascript" src="js/common.js"></script>
 </head>
 
 <script type="text/javascript">
+
+var xmlDoc;
 
 $(document).ready(function () {
 
@@ -19,38 +22,44 @@ $(document).ready(function () {
         url:        "xml/albums.xml",
         dataType:   "xml",
         success:    function(xml) {
-            readXML(xml, 0, 3);
+            xmlDoc = xml;
+            readXML();
         }
     });
 
 });
 
+function slideRight(id, start, end) {
+    var html = "";
+    html += readAlbums(id, start,end);
+    $("#"+id).hide("slide", { direction: "right" }, 1000, function() {
+        $("#"+id).html(html);
+        $("#"+id).show("slide", { direction: "left"});
+    });
+}
+
+function slideLeft(id, start, end) {
+    var html = "";
+    html += readAlbums(id, start,end);
+    $("#"+id).hide("slide", { direction: "left" }, 1000, function() {
+        $("#"+id).html(html);
+        $("#"+id).show("slide", { direction: "right"});
+    });
+}
+
 // start - first album index
 // end = last album index
-function readXML(xml, start, end) {
-	var html = "";
+function readAlbums(id, start,end) {
+
+    var html = "";
     var count = 0;
-    $(xml).find("category").each(function() {  // for every category
-    	html += "  <div class='category'>";
-        $(this).find("name").each(function() { // for every name
-            html += "<div class='category_name'>" + $(this).text() + "</div>";
-            html += "<div class='albums'>";
-            count = 0;
-        });
-		var less = false;
-        $(this).find("album").each(function() {  // for every album
-			if( count > end ) {
-				html += "<div style='vertical-align:bottom'>-></div>";
-				return false;
-			}
-			if( start > 3 && less == false ) {
-				html += "<div style='vertical-align:bottom'><-</div>";
-				less = true;
-			}
+    $(xmlDoc).find("category[id='"+id+"']").each(function() {
+        // get album info in category
+        $(this).find("album").each(function () {
             if( count >= start && count <= end ) {
                 var title = $(this).find("title").text();
                 var img = $(this).find("thumb").text();
-				var cover = $(this).find("cover").text();
+                var cover = $(this).find("cover").text();
                 var desc = $(this).find("description").text();
                 var date = $(this).find("date").text();
                 var d = new Date(date);
@@ -63,40 +72,66 @@ function readXML(xml, start, end) {
                 html += "  </a></br>" + (d.getMonth()+1) + "/" +  (d.getDate()) + "/" + year.substring(2);
                 html += "</div>";
             }
-			count++;
+            count++;
         });
+    });
+
+    if( start > 3 ) {
+        html += "<div style='float:left'>"+
+                "  <img class='arrows' src='images/previous.png' onclick=\"slideLeft('"+id+"',"+(start-4)+","+(end-4)+")\" />" +
+                "</div>";
+    }
+    if( count > end ) {
+        html += "<div style='float:left'>"+
+                "  <img class='arrows' src='images/next.png' onclick=\"slideRight('"+id+"',"+(start+4)+","+(end+4)+")\" />" +
+                "</div>";
+    }
+
+    return html;
+}
+
+function readXML() {
+
+	var html = "";
+    var id="";
+    // read every category in xml
+    $(xmlDoc).find("category").each(function() {
+    	html += "  <div class='category'>";
+        id = $(this).attr("id");
+        html += "<div class='category_name'>" + $(this).attr("name") + "</div>";
+        html += "<div class='albums' id='"+ id +"'>";
+        html += readAlbums(id, 0, 3);
         html += "    </div>";
         html += "  </div>";
     });
-
 
     $(".left_panel").html(html);
 }
 
 function albumViewer(title, img, desc, link, flash, date) {
-	
-	var months=new Array();
-	months[0] ="January";       
-	months[1] ="February";       
-	months[2] ="March";       
-	months[3] ="April";       
-	months[4] ="May";       
-	months[5] ="June";       
-	months[6] ="July";       
-	months[7] ="August";       
-	months[8] ="September";       
-	months[9] ="October";       
-	months[10]="November";       
-	months[11]="December";       
 
-	var html = ""; 
+	var months=new Array();
+	months[0] ="January";
+	months[1] ="February";
+	months[2] ="March";
+	months[3] ="April";
+	months[4] ="May";
+	months[5] ="June";
+	months[6] ="July";
+	months[7] ="August";
+	months[8] ="September";
+	months[9] ="October";
+	months[10]="November";
+	months[11]="December";
+
+	var html = "";
 	$(".album_viewer").html();
 	html += "<div class='album_title'>"+title+"</div>";
 	html += "<img class='thumbs dropShadow' src='" + img + "' height='300'/>";
-	html += "<div class='album_description'>"+desc+"</div>"; 
+	html += "<div class='album_description'>"+desc+"</div>";
 	html += "<div class='links'>";
-	
-	var d = new Date(date);	
+
+	var d = new Date(date);
 	html += "<b>"+ months[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear() + "</b>&nbsp;&nbsp;&nbsp;&nbsp;";
 	html += "<a href='"+link+"'>HTML</a>&nbsp;|&nbsp;";
 	html += "<a href='"+flash+"'>FLASH</a>";
@@ -115,11 +150,11 @@ function albumViewer(title, img, desc, link, flash, date) {
       <div class="menu"><a href="events.html" onmouseover="highlight('events')" onmouseout="unhighlight('events')"><img id="events" src="images/events.jpg"/></a></div>
     </div>
     <div class="divider"></div>
-    <div class="content">    
-      <div class="left_panel"></div>    
-      <div class="album_viewer"></div>      
+    <div class="content">
+      <div class="left_panel"></div>
+      <div class="album_viewer"></div>
     </div>
     <div class="divider"></div>
   </div>
-</body>    
+</body>
 </html>
