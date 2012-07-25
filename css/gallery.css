@@ -24,6 +24,7 @@
 .albums {
     margin-left:    15px;
     margin-bottom:  10px;
+    height:         100px;
 }
 .albumthumbs {
     float:         left;
@@ -33,9 +34,13 @@
     margin-bottOm: 10px;
 	margin-right:	5px;
 }
-.thumbs { 
+.thumbs {
     margin-bottom:  5px;
     border:         none;
+}
+.arrows {
+    height:     25px;
+    margin-top: 30px;
 }
 
 .album_viewer {
