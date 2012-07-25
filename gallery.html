@@ -32,9 +32,9 @@ $(document).ready(function () {
 function slideRight(id, start, end) {
     var html = "";
     html += readAlbums(id, start,end);
-    $("#"+id).hide("slide", { direction: "right" }, 1000, function() {
+    $("#"+id).hide("slide", { direction: "left" }, 1000, function() {
         $("#"+id).html(html);
-        $("#"+id).show("slide", { direction: "left"});
+        $("#"+id).show("slide", { direction: "right"});
     });
 }
 
