@@ -32,16 +32,16 @@ $(document).ready(function () {
 function slideRight(id, start, end) {
     var html = "";
     html += readAlbums(id, start,end);
-    $("#"+id).hide("slide", { direction: "left" }, 1000, function() {
+    $("#"+id).hide("slide", { direction: "right" }, function() {
         $("#"+id).html(html);
-        $("#"+id).show("slide", { direction: "right"});
+        $("#"+id).show("slide", { direction: "left"});
     });
 }
 
 function slideLeft(id, start, end) {
     var html = "";
     html += readAlbums(id, start,end);
-    $("#"+id).hide("slide", { direction: "left" }, 1000, function() {
+    $("#"+id).hide("slide", { direction: "left" }, function() {
         $("#"+id).html(html);
         $("#"+id).show("slide", { direction: "right"});
     });
@@ -57,15 +57,15 @@ function readAlbums(id, start,end) {
         // get album info in category
         $(this).find("album").each(function () {
             if( count >= start && count <= end ) {
-                var title = $(this).find("title").text();
-                var img = $(this).find("thumb").text();
-                var cover = $(this).find("cover").text();
-                var desc = $(this).find("description").text();
-                var date = $(this).find("date").text();
-                var d = new Date(date);
-                var flash = $(this).find("flash").text();
-                var link = $(this).find("html").text();
-                var year = new String(d.getFullYear());
+                var title   = $(this).find("title").text();
+                var img     = $(this).find("thumb").text();
+                var cover   = $(this).find("cover").text();
+                var desc    = $(this).find("description").text();
+                var date    = $(this).find("date").text();
+                var d       = new Date(date);
+                var flash   = $(this).find("flash").text();
+                var link    = $(this).find("html").text();
+                var year    = new String(d.getFullYear());
                 html += "<div class='albumthumbs'>";
                 html += "  <a href='" + $(this).find("html").text() + "'>";
                 html += "    <img class='thumbs dropShadow' src='"+img+"' width='60' onmouseover=\"albumViewer('"+title+"','"+cover+"','"+desc+"','"+link+"','"+flash+"','"+date+"')\"/>";
@@ -96,8 +96,8 @@ function readXML() {
     var id="";
     // read every category in xml
     $(xmlDoc).find("category").each(function() {
-    	html += "  <div class='category'>";
         id = $(this).attr("id");
+    	html += "  <div class='category'>";
         html += "<div class='category_name'>" + $(this).attr("name") + "</div>";
         html += "<div class='albums' id='"+ id +"'>";
         html += readAlbums(id, 0, 3);
