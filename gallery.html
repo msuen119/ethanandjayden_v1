@@ -53,6 +53,14 @@ function readAlbums(id, start,end) {
 
     var html = "";
     var count = 0;
+    
+    // Right Arrow
+    if( start > 3 ) {
+        html += "<div style='float:left'>"+
+                "  <img class='arrows' src='images/previous.png' onclick=\"slideLeft('"+id+"',"+(start-4)+","+(end-4)+")\" />" +
+                "</div>";
+    }
+    
     $(xmlDoc).find("category[id='"+id+"']").each(function() {
         // get album info in category
         $(this).find("album").each(function () {
@@ -76,11 +84,7 @@ function readAlbums(id, start,end) {
         });
     });
 
-    if( start > 3 ) {
-        html += "<div style='float:left'>"+
-                "  <img class='arrows' src='images/previous.png' onclick=\"slideLeft('"+id+"',"+(start-4)+","+(end-4)+")\" />" +
-                "</div>";
-    }
+    // Left Arrow
     if( count > end ) {
         html += "<div style='float:left'>"+
                 "  <img class='arrows' src='images/next.png' onclick=\"slideRight('"+id+"',"+(start+4)+","+(end+4)+")\" />" +
