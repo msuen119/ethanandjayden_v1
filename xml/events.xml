@@ -1,5 +1,15 @@
 <events>
   <event>
+    <name>Arrival of Ethan and Jayden</name>
+    <html>albums/birth/arrival-H/index.html</html>
+    <flash>/albums/birth/arrival-S/index.html</flash>
+    <linkText>Check out photos from the event here</linkText>
+    <description>Ethan and Jayden have finally arrived.  Born August 9th, 2012!!</description>
+    <image>events/birth.JPG</image>
+    <orientation>landscape</orientation>
+    <date>August 9, 2012</date>
+  </event>
+  <event>
     <name>Baby Shower with Tennis Friends</name>
     <html>albums/tennisShower/baby-H/index.html</html>
     <flash>/albums/tennisShower/baby-S/index.html</flash>
