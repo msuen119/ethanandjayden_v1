@@ -2,6 +2,15 @@
   <category id="1" name="Photoshoots">
     <albums>
       <album>
+        <title>One to Three Months</title>
+        <html>albums/3months/photos-H/index.html</html>
+        <flash>/albums/3months/photos-S/index.html</flash>
+        <description>From one month to their three month birthday</description>
+        <thumb>albums/3months/thumb.JPG</thumb>
+        <cover>albums/3months/cover.JPG</cover>
+        <date>11/09/2012</date>
+      </album>
+      <album>
         <title>Newborn to One Month</title>
         <html>albums/1month/photos-H/index.html</html>
         <flash>/albums/1month/photos-S/index.html</flash>
