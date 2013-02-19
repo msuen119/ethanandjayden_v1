@@ -32,6 +32,15 @@
   </category>
   <category id="2" name="Family and Friends">
     <albums>
+	  <album>
+        <title>Thanksgiving 2012</title>
+        <html>albums/thanksgiving2012/pics-H/index.html</html>
+        <flash>/albums/thanksgiving2012/pics-S/index.html</flash>
+        <description>Some family photos taken during thanksgiving</description>
+        <thumb>albums/thanksgiving2012/thumb.JPG</thumb>
+        <cover>albums/thanksgiving2012/cover.JPG</cover>
+        <date>11/22/2012</date>
+      </album>
       <album>
         <title>Arrival of Ethan and Jayden</title>
         <html>albums/birth/arrival-H/index.html</html>
