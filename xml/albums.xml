@@ -32,15 +32,6 @@
   </category>
   <category id="2" name="Family and Friends">
     <albums>
-	  <album>
-        <title>Thanksgiving 2012</title>
-        <html>albums/thanksgiving2012/pics-H/index.html</html>
-        <flash>/albums/thanksgiving2012/pics-S/index.html</flash>
-        <description>Some family photos taken during thanksgiving</description>
-        <thumb>albums/thanksgiving2012/thumb.JPG</thumb>
-        <cover>albums/thanksgiving2012/cover.JPG</cover>
-        <date>11/22/2012</date>
-      </album>
       <album>
         <title>Arrival of Ethan and Jayden</title>
         <html>albums/birth/arrival-H/index.html</html>
@@ -69,5 +60,27 @@
         <date>06/09/2012</date>
       </album>
 	</albums>
+  </category>
+  <category id="3" name="Holidays">
+    <albums>
+	  <album>
+        <title>Christmas 2012</title>
+        <html>albums/christmas2012/pics-H/index.html</html>
+        <flash>/albums/christmas2012/pics-S/index.html</flash>
+        <description>Spending Christmas Day at the Chan residence</description>
+        <thumb>albums/christmas2012/thumb.JPG</thumb>
+        <cover>albums/christmas2012/cover.JPG</cover>
+        <date>12/25/2012</date>
+      </album>
+	  <album>
+        <title>Thanksgiving 2012</title>
+        <html>albums/thanksgiving2012/pics-H/index.html</html>
+        <flash>/albums/thanksgiving2012/pics-S/index.html</flash>
+        <description>Some family photos taken during thanksgiving</description>
+        <thumb>albums/thanksgiving2012/thumb.JPG</thumb>
+        <cover>albums/thanksgiving2012/cover.JPG</cover>
+        <date>11/22/2012</date>
+      </album>
+    </albums>
   </category>
 </categories>
