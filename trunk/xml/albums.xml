@@ -2,6 +2,15 @@
   <category id="1" name="Photoshoots">
     <albums>
       <album>
+        <title>Six to Eight Month Portraits</title>
+        <html>albums/6to8months/photos-H/index.html</html>
+        <flash>/albums/6to8months/photos-S/index.html</flash>
+        <description>Portraits and photos with friends</description>
+        <thumb>albums/6to8months/thumb.JPG</thumb>
+        <cover>albums/6to8months/cover.JPG</cover>
+        <date>04/30/2013</date>
+      </album>
+      <album>
         <title>One to Three Months</title>
         <html>albums/3months/photos-H/index.html</html>
         <flash>/albums/3months/photos-S/index.html</flash>
@@ -63,7 +72,7 @@
   </category>
   <category id="3" name="Holidays">
     <albums>
-	  <album>
+      <album>
         <title>Christmas 2012</title>
         <html>albums/christmas2012/pics-H/index.html</html>
         <flash>/albums/christmas2012/pics-S/index.html</flash>
@@ -72,7 +81,7 @@
         <cover>albums/christmas2012/cover.JPG</cover>
         <date>12/25/2012</date>
       </album>
-	  <album>
+      <album>
         <title>Thanksgiving 2012</title>
         <html>albums/thanksgiving2012/pics-H/index.html</html>
         <flash>/albums/thanksgiving2012/pics-S/index.html</flash>
