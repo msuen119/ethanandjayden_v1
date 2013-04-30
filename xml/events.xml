@@ -1,4 +1,28 @@
 <events>
+   <event>
+    <name>Beautiful Day</name>
+    <html>albums/6to8months/photos-H/index.html</html>
+    <flash>/albums/6to8months/photos-S/index.html</flash>
+    <linkText>Check out more photos from the day and other portraits from the last few months.</linkText>
+    <description>It was a beautiful to be outside.  Auntie Pam, Auntie Patty, Mia and Chasen came over to play.</description>
+    <image>events/LamFriends.JPG</image>
+    <orientation>landscape</orientation>
+    <date>April 21, 2013</date>
+  </event>
+   <event>
+    <name>Auntie Annalyn</name>
+    <description>Who's that pretty lady holding me</description>
+    <image>events/AuntieAnnalyn.JPG</image>
+    <orientation>portrait</orientation>
+    <date>January 19, 2013</date>
+  </event>
+  <event>
+    <name>Hanging with my SB Aunties</name>
+    <description>Meeting some of my UCSB Aunties for the first time.</description>
+    <image>events/SBAunties.JPG</image>
+    <orientation>landscape</orientation>
+    <date>January 19, 2013</date>
+  </event>
   <event>
     <name>Arrival of Ethan and Jayden</name>
     <html>albums/birth/arrival-H/index.html</html>
