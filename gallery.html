@@ -54,7 +54,7 @@ function readAlbums(id, start,end) {
     var html = "";
     var count = 0;
     
-    // Right Arrow
+    // Left Arrow
     if( start > 3 ) {
         html += "<div style='float:left'>"+
                 "  <img class='arrows' src='images/previous.png' onclick=\"slideLeft('"+id+"',"+(start-4)+","+(end-4)+")\" />" +
@@ -84,7 +84,7 @@ function readAlbums(id, start,end) {
         });
     });
 
-    // Left Arrow
+    // Right Arrow
     if( count > end ) {
         html += "<div style='float:left'>"+
                 "  <img class='arrows' src='images/next.png' onclick=\"slideRight('"+id+"',"+(start+4)+","+(end+4)+")\" />" +
@@ -104,7 +104,7 @@ function readXML() {
     	html += "  <div class='category'>";
         html += "<div class='category_name'>" + $(this).attr("name") + "</div>";
         html += "<div class='albums' id='"+ id +"'>";
-        html += readAlbums(id, 0, 3);
+        html += readAlbums(id, 0, 4);
         html += "    </div>";
         html += "  </div>";
     });
