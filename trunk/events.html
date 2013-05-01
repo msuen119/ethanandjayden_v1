@@ -32,8 +32,13 @@ function readXML(xml) {
 	$(xml).find("event").each(function() {  // for every event
 		var orientation = $(this).find("orientation").text();
 		if( orientation == 'landscape') {
+			var image = $(this).find("image").text();
 			html += "<div class=\"title\">"+$(this).find("name").text()+"</div>";
-			html += "<div class=\"landscape\"><img class=\"dropShadow\" width=\"500px\" src=\""+$(this).find("image").text()+"\"/></div>";
+			html += "<div class=\"landscape\">";
+			if( image == 'youtube')
+				html += "<iframe width='500' height='315' src=\""+$(this).find("link").text()+"\" frameborder='0'></iframe>";
+			else
+			    html += "<img class=\"dropShadow\" width=\"500px\" src=\""+$(this).find("image").text()+"\"/></div>";
 			html += "<div class=\"event_description bottom\"><b>"+$(this).find("date").text()+"</b> - "+$(this).find("description").text()+"</div>";
 			if( $(this).find("html").text() != "" ) {
 				html += "<div class=\"event_description bottom\">" +

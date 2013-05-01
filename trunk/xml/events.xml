@@ -1,5 +1,13 @@
 <events>
-   <event>
+  <event>
+    <name>Laughing at Grandma</name>
+    <description>Jayden is cracking up at the way Grandma sneezes</description>
+    <image>youtube</image>
+    <link>http://www.youtube.com/embed/U1tRJWKgorw?rel=0</link>
+    <orientation>landscape</orientation>
+    <date>April 30, 2013</date>
+  </event> 
+  <event>
     <name>Beautiful Day</name>
     <html>albums/6to8months/photos-H/index.html</html>
     <flash>/albums/6to8months/photos-S/index.html</flash>
