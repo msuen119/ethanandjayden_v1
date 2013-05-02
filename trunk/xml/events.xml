@@ -6,7 +6,15 @@
     <link>http://www.youtube.com/embed/U1tRJWKgorw?rel=0</link>
     <orientation>landscape</orientation>
     <date>April 30, 2013</date>
-  </event> 
+  </event>
+  <event>
+    <name>Hawaiian Hunks</name>
+    <description>Hawaiian hunks hanging out in the their birthday suit.</description>
+    <image>youtube</image>
+    <link>http://www.youtube.com/embed/c_fXOxyFZH0?rel=0</link>
+    <orientation>landscape</orientation>
+    <date>April 29, 2013</date>
+  </event>  
   <event>
     <name>Beautiful Day</name>
     <html>albums/6to8months/photos-H/index.html</html>
@@ -17,13 +25,30 @@
     <orientation>landscape</orientation>
     <date>April 21, 2013</date>
   </event>
-   <event>
-    <name>Auntie Annalyn</name>
-    <description>Who's that pretty lady holding me</description>
-    <image>events/AuntieAnnalyn.JPG</image>
-    <orientation>portrait</orientation>
-    <date>January 19, 2013</date>
-  </event>
+  <event>
+    <name>Two little monkeys</name>
+    <description>Ethan and Jayden playing together in their crib</description>
+    <image>youtube</image>
+    <link>http://www.youtube.com/embed/9eYzJCu9Zxc?rel=0</link>
+    <orientation>landscape</orientation>
+    <date>April 15, 2013</date>
+  </event> 
+  <event>
+    <name>Slap Jack</name>
+    <description>Jayden playing a silly game with dad.</description>
+    <image>youtube</image>
+    <link>http://www.youtube.com/embed/Yv1ozbe8uOI?rel=0</link>
+    <orientation>landscape</orientation>
+    <date>March 12, 2013</date>
+  </event> 
+  <event>
+    <name>Happy Babies</name>
+    <description>Daddy makes funny kissing sounds.</description>
+    <image>youtube</image>
+    <link>http://www.youtube.com/embed/AMnVVtwKtQo?rel=0</link>
+    <orientation>landscape</orientation>
+    <date>Jan 22, 2013</date>
+  </event> 
   <event>
     <name>Hanging with my SB Aunties</name>
     <description>Meeting some of my UCSB Aunties for the first time.</description>
