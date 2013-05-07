@@ -1,5 +1,26 @@
 <events>
   <event>
+    <name>Hanging out with Auntie Suzie and Auntie Michelle</name>
+    <description>Auntie Suzie and Auntie Michelle came over to play on Cinco de Mayo.</description>
+    <image>events/SuzieandMichelle.JPG</image>
+    <orientation>landscape</orientation>
+    <date>May 5, 2013</date>
+  </event>
+  <event>
+    <name>Aunt Suzie</name>
+    <description>Auntie Suzie can handle twins...no problem.  One baby will be a piece of cake! ;)</description>
+    <image>events/Suzie.JPG</image>
+    <orientation>landscape</orientation>
+    <date>May 5, 2013</date>
+  </event>
+  <event>
+    <name>Chillin</name>
+    <description>Getting held all day long.  What a great Sunday!</description>
+    <image>events/MandS.JPG</image>
+    <orientation>landscape</orientation>
+    <date>May 5, 2013</date>
+  </event>
+  <event>
     <name>Laughing at Grandma</name>
     <description>Jayden is cracking up at the way Grandma sneezes</description>
     <image>youtube</image>
