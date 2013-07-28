@@ -1,5 +1,15 @@
 <events>
   <event>
+    <name>Our first vacation</name>
+    <html>albums/hawaii2013/photos-H/index.html</html>
+    <flash>/albums/hawaii2013/photos-S/index.html</flash>
+    <linkText>Check out more photos from our trip.</linkText>
+    <description>Our first family vacation to Hawaii.  The boys were a star on the plane.  They loved the pool but were not a fan of the beach.</description>
+    <image>events/hawaii.JPG</image>
+    <orientation>landscape</orientation>
+    <date>July 7, 2013</date>
+  </event>
+  <event>
     <name>I finally caught up</name>
     <description>About 3 weeks after Ethan started crawling, Jayden figured it out too.  His style is a bit unconventional, but it gets him where he wants to go.</description>
     <image>youtube</image>

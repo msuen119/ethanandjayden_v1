@@ -92,4 +92,17 @@
       </album>
     </albums>
   </category>
+  <category id="4" name="Vacations">
+    <albums>
+      <album>
+        <title>Hawaii 2013</title>
+        <html>albums/hawaii2013/photos-H/index.html</html>
+        <flash>/albums/hawaii2013/photos-S/index.html</flash>
+        <description>Our first family vacation to Hawaii.  We went to Kaui and Oahu</description>
+        <thumb>albums/hawaii2013/thumb.JPG</thumb>
+        <cover>albums/hawaii2013/cover.JPG</cover>
+        <date>11/22/2012</date>
+      </album>
+    </albums>
+  </category>
 </categories>
