@@ -1,5 +1,13 @@
 <events>
   <event>
+    <name>Happy Babies #2</name>
+    <description>This happens on a nightly basis at dinner time.  They've grown a lot, but at 11 months, one thing hasn't changed...they are still happy babies.</description>
+    <image>youtube</image>
+    <link>http://www.youtube.com/embed/qEMIy5ZcPN8?rel=0</link>
+    <orientation>landscape</orientation>
+    <date>July 31, 2013</date>
+  </event>
+  <event>
     <name>Our first vacation</name>
     <html>albums/hawaii2013/photos-H/index.html</html>
     <flash>/albums/hawaii2013/photos-S/index.html</flash>
@@ -61,7 +69,7 @@
     <link>http://www.youtube.com/embed/c_fXOxyFZH0?rel=0</link>
     <orientation>landscape</orientation>
     <date>April 29, 2013</date>
-  </event>  
+  </event>
   <event>
     <name>Beautiful Day</name>
     <html>albums/6to8months/photos-H/index.html</html>
@@ -79,7 +87,7 @@
     <link>http://www.youtube.com/embed/9eYzJCu9Zxc?rel=0</link>
     <orientation>landscape</orientation>
     <date>April 15, 2013</date>
-  </event> 
+  </event>
   <event>
     <name>Slap Jack</name>
     <description>Jayden playing a silly game with dad.</description>
@@ -87,7 +95,7 @@
     <link>http://www.youtube.com/embed/Yv1ozbe8uOI?rel=0</link>
     <orientation>landscape</orientation>
     <date>March 12, 2013</date>
-  </event> 
+  </event>
   <event>
     <name>Happy Babies</name>
     <description>Daddy makes funny kissing sounds.</description>
@@ -124,27 +132,27 @@
     <name>Baby Shower with Tennis Friends</name>
     <html>albums/tennisShower/baby-H/index.html</html>
     <flash>/albums/tennisShower/baby-S/index.html</flash>
-	<linkText>Check out photos from the event here</linkText>
+    <linkText>Check out photos from the event here</linkText>
     <description>I have the best teammates in the world.  Special thanks to Lynley, Lien and Tammy for putting this together.</description>
     <image>events/babyshowertennis.jpg</image>
-	<orientation>landscape</orientation>
+    <orientation>landscape</orientation>
     <date>July 8, 2012</date>
   </event>
   <event>
     <name>Baby Shower</name>
     <html>albums/shower/baby-H/index.html</html>
     <flash>/albums/shower/baby-S/index.html</flash>
-	<linkText>Check out photos from the event here</linkText>
+    <linkText>Check out photos from the event here</linkText>
     <description>Ethan and Jayden enjoyed their baby shower.  They loved seeing all their friends and family.  They especially love all the gifts they got.</description>
     <image>events/babyshower.JPG</image>
-	<orientation>landscape</orientation>
+    <orientation>landscape</orientation>
     <date>June 16, 2012</date>
   </event>
   <event>
     <name>Baby Room</name>
     <description>The decorations for the baby room is finally complete.  Special thanks to Yvonne for the banner.</description>
     <image>events/room.jpg</image>
-	<orientation>landscape</orientation>
+    <orientation>landscape</orientation>
     <date>June 15, 2012</date>
   </event>
 </events>
