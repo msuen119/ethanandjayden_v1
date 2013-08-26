@@ -1,7 +1,15 @@
 <events>
   <event>
+    <name>Baby Steps</name>
+    <description>Ethan took his FIRST steps today!!  He just decided to let go and start walking.  Everytime he does it, he has the bigest smile on his face like he knows he's accomplished something big.</description>
+    <image>youtube</image>
+    <link>http://www.youtube.com/embed/_T9XANg-i5A?rel=0</link>
+    <orientation>landscape</orientation>
+    <date>August 24, 2013</date>
+  </event>
+  <event>
     <name>Calling on my peeps!</name>
-    <description>Jayden's got a lot of important phone calls to make.</description>
+    <description>Jayden's got a lot of important phone calls to make. We apologize for any crank calls and cryptic text messages he's made.</description>
     <image>youtube</image>
     <link>http://www.youtube.com/embed/HPZxjZvjjE4?rel=0</link>
     <orientation>landscape</orientation>
