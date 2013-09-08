@@ -26,6 +26,17 @@
     <date>August 23, 2013</date>
   </event>
   <event>
+    <name>Our First Birthday Party!</name>
+    <html>albums/1stbirthday/pics-H/index.html</html>
+    <flash>/albums/1stbirthday/pics-S/index.html</flash>
+    <linkText>Check out more photos from our special day.</linkText>
+    <description>Many of our friends and family came out to celebrate Ethan and Jayden's first birthday.
+        They had so much fun eating, playing and hanging out with people.</description>
+    <image>events/1stbirthday.JPG</image>
+    <orientation>landscape</orientation>
+    <date>August 11, 2013</date>
+  </event>
+  <event>
     <name>Happy Babies #2</name>
     <description>This happens on a nightly basis at dinner time.  They've grown a lot, but at 11 months, one thing hasn't changed...they are still happy babies.</description>
     <image>youtube</image>
