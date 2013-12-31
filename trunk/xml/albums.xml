@@ -73,6 +73,25 @@
   <category id="3" name="Holidays">
     <albums>
       <album>
+        <title>2013 Holiday Season</title>
+        <html>albums/holidays2013/pics-H/index.html</html>
+        <flash>/albums/holidays2013/pics-S/index.html</flash>
+        <description>Celebrating Thanksgiving and Christmas with our friends and family.</description>
+        <thumb>albums/holidays2013/thumb.JPG</thumb>
+        <cover>albums/holidays2013/cover.JPG</cover>
+        <date>12/31/2013</date>
+      </album>
+      <album>
+      <album>
+        <title>Halloween 2013</title>
+        <html>albums/halloween2013/pics-H/index.html</html>
+        <flash>/albums/halloween2013/pics-S/index.html</flash>
+        <description>Now that we are walking, we got to trick-or-treating.  Our cousin, Sammy, came over to join to fun.</description>
+        <thumb>albums/halloween2013/thumb.JPG</thumb>
+        <cover>albums/halloween2013/cover.JPG</cover>
+        <date>10/31/2013</date>
+      </album>
+      <album>
         <title>Christmas 2012</title>
         <html>albums/christmas2012/pics-H/index.html</html>
         <flash>/albums/christmas2012/pics-S/index.html</flash>
