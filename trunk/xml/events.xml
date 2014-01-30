@@ -1,5 +1,13 @@
 <events>
   <event>
+    <name>Bust a move!</name>
+    <description>Let Ethan and Jayden show you the latest and greatest dance moves.</description>
+    <image>youtube</image>
+    <link>http://www.youtube.com/embed/llS5GbSb6Mo?rel=0</link>
+    <orientation>landscape</orientation>
+    <date>January 26, 2014</date>
+  </event>
+  <event>
     <name>2013 Holiday Season</name>
     <html>albums/holidays2013/pics-H/index.html</html>
     <flash>/albums/holidays2013/pics-S/index.html</flash>
@@ -8,7 +16,7 @@
     <image>events/holidays13.JPG</image>
     <orientation>landscape</orientation>
     <date>December 31, 2013</date>
-  </event> 
+  </event>
   <event>
     <name>Halloween</name>
     <html>albums/halloween2013/pics-H/index.html</html>
@@ -18,7 +26,7 @@
     <image>events/halloween.JPG</image>
     <orientation>landscape</orientation>
     <date>October 31, 2013</date>
-  </event>    
+  </event>
   <event>
     <name>Practice</name>
     <description>If at first your don't succeed, dust yourself off and try again.  Jayden has been
