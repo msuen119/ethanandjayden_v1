@@ -68,7 +68,7 @@
         <cover>albums/shower/cover.JPG</cover>
         <date>06/09/2012</date>
       </album>
-	</albums>
+    </albums>
   </category>
   <category id="3" name="Holidays">
     <albums>
@@ -81,7 +81,6 @@
         <cover>albums/holidays2013/cover.JPG</cover>
         <date>12/31/2013</date>
       </album>
-      <album>
       <album>
         <title>Halloween 2013</title>
         <html>albums/halloween2013/pics-H/index.html</html>
@@ -120,7 +119,7 @@
         <description>Our first family vacation to Hawaii.  We went to Kaui and Oahu</description>
         <thumb>albums/hawaii2013/thumb.JPG</thumb>
         <cover>albums/hawaii2013/cover.JPG</cover>
-        <date>11/22/2012</date>
+        <date>07/07/2013</date>
       </album>
     </albums>
   </category>
