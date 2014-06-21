@@ -23,7 +23,7 @@
         <title>Newborn to One Month</title>
         <html>albums/1month/photos-H/index.html</html>
         <flash>/albums/1month/photos-S/index.html</flash>
-        <description>These are from several days old up to their one month birthday.  Their one month birthday is also their daddy\'s birthday.  The whole family is born on the 9th.</description>
+        <description>These are from several days old up to their one month birthday.  Their one month birthday is also their daddy's birthday.  The whole family is born on the 9th.</description>
         <thumb>albums/1month/thumb.JPG</thumb>
         <cover>albums/1month/cover.JPG</cover>
         <date>09/09/2012</date>
@@ -67,6 +67,15 @@
         <thumb>albums/shower/thumb.JPG</thumb>
         <cover>albums/shower/cover.JPG</cover>
         <date>06/09/2012</date>
+      </album>
+      <album>
+        <title>Sammy's 3rd Birthday Party</title>
+        <html>albums/sammys3rd/bday-H/index.html</html>
+        <flash>/albums/sammys3rd/bday-S/index.html</flash>
+        <description>A fun filled afternoon at Lemos farm in Half Moon Bay to celebrate cousin Sammy's 3rd Birthday!</description>
+        <thumb>albums/sammys3rd/thumb.JPG</thumb>
+        <cover>albums/sammys3rd/cover.JPG</cover>
+        <date>06/14/2014</date>
       </album>
     </albums>
   </category>
