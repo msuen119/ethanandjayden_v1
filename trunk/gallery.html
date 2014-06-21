@@ -65,10 +65,10 @@ function readAlbums(id, start,end) {
         // get album info in category
         $(this).find("album").each(function () {
             if( count >= start && count <= end ) {
-                var title   = $(this).find("title").text();
+                var title   = $(this).find("title").text().replace("'", "\\'");
                 var img     = $(this).find("thumb").text();
                 var cover   = $(this).find("cover").text();
-                var desc    = $(this).find("description").text();
+                var desc    = $(this).find("description").text().replace("'", "\\'");
                 var date    = $(this).find("date").text();
                 var d       = new Date(date);
                 var flash   = $(this).find("flash").text();
