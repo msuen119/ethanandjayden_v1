@@ -42,6 +42,15 @@
   <category id="2" name="Family and Friends">
     <albums>
       <album>
+        <title>Sammy's 3rd Birthday Party</title>
+        <html>albums/sammys3rd/bday-H/index.html</html>
+        <flash>/albums/sammys3rd/bday-S/index.html</flash>
+        <description>A fun filled afternoon at Lemos farm in Half Moon Bay to celebrate cousin Sammy's 3rd Birthday!</description>
+        <thumb>albums/sammys3rd/thumb.JPG</thumb>
+        <cover>albums/sammys3rd/cover.JPG</cover>
+        <date>06/14/2014</date>
+      </album>        
+      <album>
         <title>Arrival of Ethan and Jayden</title>
         <html>albums/birth/arrival-H/index.html</html>
         <flash>/albums/birth/arrival-S/index.html</flash>
@@ -67,15 +76,6 @@
         <thumb>albums/shower/thumb.JPG</thumb>
         <cover>albums/shower/cover.JPG</cover>
         <date>06/09/2012</date>
-      </album>
-      <album>
-        <title>Sammy's 3rd Birthday Party</title>
-        <html>albums/sammys3rd/bday-H/index.html</html>
-        <flash>/albums/sammys3rd/bday-S/index.html</flash>
-        <description>A fun filled afternoon at Lemos farm in Half Moon Bay to celebrate cousin Sammy's 3rd Birthday!</description>
-        <thumb>albums/sammys3rd/thumb.JPG</thumb>
-        <cover>albums/sammys3rd/cover.JPG</cover>
-        <date>06/14/2014</date>
       </album>
     </albums>
   </category>
