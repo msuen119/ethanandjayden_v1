@@ -1,5 +1,15 @@
 <events>
   <event>
+    <name>Hawaii 2014!</name>
+    <html>albums/hawaii2014/vacation-H/index.html</html>
+    <flash>/albums/hawaii2014/vacation-S/index.html</flash>
+    <linkText>Check out more photos from this event.</linkText>
+    <description>Another fabulous family vacation in Oahu and Maui.  Ethan and Jayen couldn't get enough of the water.</description>
+    <image>events/hawaii2014.JPG</image>
+    <orientation>landscape</orientation>
+    <date>July 4, 2014</date>
+  </event>    
+  <event>
     <name>Sammy's 3rd Birthday Party!</name>
     <html>albums/sammys3rd/bday-H/index.html</html>
     <flash>/albums/sammys3rd/bday-S/index.html</flash>

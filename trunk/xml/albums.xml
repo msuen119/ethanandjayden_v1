@@ -122,6 +122,15 @@
   <category id="4" name="Vacations">
     <albums>
       <album>
+        <title>Hawaii 2014</title>
+        <html>albums/hawaii2014/vacation-H/index.html</html>
+        <flash>/albums/hawaii2014/vacation-S/index.html</flash>
+        <description>Another fabulous family vacation in Oahu and Maui.</description>
+        <thumb>albums/hawaii2014/thumb.JPG</thumb>
+        <cover>albums/hawaii2014/cover.JPG</cover>
+        <date>07/04/2014</date>
+      </album>
+      <album>
         <title>Hawaii 2013</title>
         <html>albums/hawaii2013/photos-H/index.html</html>
         <flash>/albums/hawaii2013/photos-S/index.html</flash>
