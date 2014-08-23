@@ -1,5 +1,15 @@
 <events>
   <event>
+    <name>We're TWO!</name>
+    <html>albums/2ndbirthday/party-H/index.html</html>
+    <flash>/albums/2ndbirthday/party-S/index.html</flash>
+    <linkText>Check out more photos from this event.</linkText>
+    <description>A fun filled afternoon at Lake Elizabeth hanging out with friends and family.  We jumped in the bounce house all afternoon.</description>
+    <image>events/2ndbirthday.JPG</image>
+    <orientation>landscape</orientation>
+    <date>August 10, 2014</date>
+  </event>    
+  <event>
     <name>Hawaii 2014!</name>
     <html>albums/hawaii2014/vacation-H/index.html</html>
     <flash>/albums/hawaii2014/vacation-S/index.html</flash>
