@@ -85,7 +85,7 @@ function readAlbums(id, start,end) {
     });
 
     // Right Arrow
-    if( count > end ) {
+    if( count > end+1 ) {
         html += "<div style='float:left'>"+
                 "  <img class='arrows' src='images/next.png' onclick=\"slideRight('"+id+"',"+(start+4)+","+(end+4)+")\" />" +
                 "</div>";
@@ -104,7 +104,7 @@ function readXML() {
     	html += "  <div class='category'>";
         html += "<div class='category_name'>" + $(this).attr("name") + "</div>";
         html += "<div class='albums' id='"+ id +"'>";
-        html += readAlbums(id, 0, 4);
+        html += readAlbums(id, 0, 3);
         html += "    </div>";
         html += "  </div>";
     });
