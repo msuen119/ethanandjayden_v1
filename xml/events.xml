@@ -8,7 +8,7 @@
     <image>events/2ndbirthday.JPG</image>
     <orientation>landscape</orientation>
     <date>August 10, 2014</date>
-  </event>    
+  </event>
   <event>
     <name>Hawaii 2014!</name>
     <html>albums/hawaii2014/vacation-H/index.html</html>
@@ -18,7 +18,7 @@
     <image>events/hawaii2014.JPG</image>
     <orientation>landscape</orientation>
     <date>July 4, 2014</date>
-  </event>    
+  </event>
   <event>
     <name>Sammy's 3rd Birthday Party!</name>
     <html>albums/sammys3rd/bday-H/index.html</html>
@@ -56,6 +56,14 @@
     <image>events/halloween.JPG</image>
     <orientation>landscape</orientation>
     <date>October 31, 2013</date>
+  </event>
+  <event>
+    <name>Our Life</name>
+    <description>Video of Ethan and Jayden's first year!</description>
+    <image>youtube</image>
+    <link>http://www.youtube.com/embed/VJ8nEJQCuqI?rel=0</link>
+    <orientation>landscape</orientation>
+    <date>August 2013</date>
   </event>
   <event>
     <name>Practice</name>

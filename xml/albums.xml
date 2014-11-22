@@ -49,7 +49,7 @@
         <thumb>albums/2ndbirthday/thumb.JPG</thumb>
         <cover>albums/2ndbirthday/cover.JPG</cover>
         <date>08/10/2014</date>
-      </album>        
+      </album>
       <album>
         <title>Sammy's 3rd Birthday Party</title>
         <html>albums/sammys3rd/bday-H/index.html</html>
@@ -58,7 +58,7 @@
         <thumb>albums/sammys3rd/thumb.JPG</thumb>
         <cover>albums/sammys3rd/cover.JPG</cover>
         <date>06/14/2014</date>
-      </album>        
+      </album>
       <album>
         <title>Arrival of Ethan and Jayden</title>
         <html>albums/birth/arrival-H/index.html</html>
@@ -90,6 +90,15 @@
   </category>
   <category id="3" name="Holidays">
     <albums>
+      <album>
+        <title>Halloween 2014</title>
+        <html>albums/halloween2014/pics-H/index.html</html>
+        <flash>/albums/halloween2043/pics-S/index.html</flash>
+        <description>Ethan and Jayden had a howling good time trick-or-treating and passing out candy.</description>
+        <thumb>albums/halloween2014/thumb.JPG</thumb>
+        <cover>albums/halloween2014/cover.JPG</cover>
+        <date>10/31/2014</date>
+      </album>
       <album>
         <title>2013 Holiday Season</title>
         <html>albums/holidays2013/pics-H/index.html</html>
