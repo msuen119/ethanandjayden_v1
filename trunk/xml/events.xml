@@ -1,5 +1,13 @@
 <events>
   <event>
+    <name>Taking Advantage of a Rainy Day</name>
+    <description>What's more fun than playing in the rain!</description>
+    <image>youtube</image>
+    <link>http://www.youtube.com/embed/8jI2xIpQVCw?rel=0</link>
+    <orientation>landscape</orientation>
+    <date>November 29, 2014</date>
+  </event>
+  <event>
     <name>We're TWO!</name>
     <html>albums/2ndbirthday/party-H/index.html</html>
     <flash>/albums/2ndbirthday/party-S/index.html</flash>
