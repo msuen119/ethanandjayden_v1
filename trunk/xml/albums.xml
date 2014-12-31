@@ -91,9 +91,18 @@
   <category id="3" name="Holidays">
     <albums>
       <album>
+        <title>Christmas 2014</title>
+        <html>albums/christmas2014/pics-H/index.html</html>
+        <flash>/albums/christmas2014/pics-S/index.html</flash>
+        <description>Ethan and Jayden celebrated Christmas three times this year.  First with the Solis family, then with the Suen family and then headed down to LA to celebrate with the Chan family.  It's been a fun filled holiday season!</description>
+        <thumb>albums/christmas2014/thumb.JPG</thumb>
+        <cover>albums/christmas2014/cover.JPG</cover>
+        <date>12/25/2014</date>
+      </album>
+      <album>
         <title>Halloween 2014</title>
         <html>albums/halloween2014/pics-H/index.html</html>
-        <flash>/albums/halloween2043/pics-S/index.html</flash>
+        <flash>/albums/halloween2014/pics-S/index.html</flash>
         <description>Ethan and Jayden had a howling good time trick-or-treating and passing out candy.</description>
         <thumb>albums/halloween2014/thumb.JPG</thumb>
         <cover>albums/halloween2014/cover.JPG</cover>

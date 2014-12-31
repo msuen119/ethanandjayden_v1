@@ -1,5 +1,15 @@
 <events>
   <event>
+    <name>Christmas 2014</name>
+    <html>albums/christmas2014/pics-H/index.html</html>
+    <flash>/albums/christmas2014/pics-S/index.html</flash>
+    <linkText>Check out more photos from this event.</linkText>
+    <description>Ethan and Jayden celebrated Christmas three times this year.  First with the Solis family, then with the Suen family and then headed down to LA to celebrate with the Chan family.  It's been a fun filled holiday season!</description>
+    <image>events/xmas2014.JPG</image>
+    <orientation>portrait</orientation>
+    <date>December, 2014</date>
+  </event>
+  <event>
     <name>Taking Advantage of a Rainy Day</name>
     <description>What's more fun than playing in the rain!</description>
     <image>youtube</image>

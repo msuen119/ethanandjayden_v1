@@ -52,7 +52,10 @@ function readXML(xml) {
 			html += "<div class=\"portrait\"><img class=\"dropShadow\" width=\"250\" src=\""+$(this).find("image").text()+"\"/></div>";
 			html += "<div class=\"event_description right\"><b>"+$(this).find("date").text()+"</b> - "+$(this).find("description").text()+"</div>";
 			if( $(this).find("html").text() != "" ) {
-				html += "<div class=\"event_description right\"><a href=\""+$(this).find("html").text()+"\">"+$(this).find("linkText").text()+"</a></div>";
+				html += "<div class=\"event_description right\">" +
+				        "  </br><a href=\""+$(this).find("html").text()+"\">"+$(this).find("linkText").text()+"</a>" +
+				        "  </br></br><a href=\""+$(this).find("flash").text()+"\">Slideshow Version</a>" +
+				        "</div>";
 			}
 		}
 		html += "<div class=\"seperator\"></div>";
